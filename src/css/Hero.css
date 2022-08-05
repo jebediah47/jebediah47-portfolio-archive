@@ -1,0 +1,6 @@
+.hero__img {
+  width: 1920px;
+  height: 948px;
+  object-fit: cover;
+  opacity: 0.32;
+}
