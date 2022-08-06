@@ -1,1 +1,0 @@
-export { scrollToComponent } from "./scrollToComponent";

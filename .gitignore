@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+.idea/
+public
+yarn.lock
+.cache/
+public/
+src/gatsby-types.d.ts
