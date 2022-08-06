@@ -21,9 +21,6 @@ jobs:
       - name: Check out your repository using git
         uses: actions/checkout@v2
 
-      - name: Create package-lock.json
-        run: npm i --package-lock-only
-
       - name: Use Node.js 16
         uses: actions/setup-node@v2
         with:
@@ -31,7 +28,7 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ic
 
       - name: Build Gatsby
         run: npm run build
