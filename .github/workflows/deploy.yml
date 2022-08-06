@@ -28,7 +28,7 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm ic
+        run: npm install
 
       - name: Build Gatsby
         run: npm run build
