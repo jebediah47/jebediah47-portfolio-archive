@@ -1,6 +1,7 @@
 node_modules/
 .cache/
-*.idea
+.nuxt/
+dist/
 public
 yarn.lock
 .cache/
