@@ -4,5 +4,4 @@ node_modules/
 dist/
 yarn.lock
 .cache/
-public/
 src/gatsby-types.d.ts
