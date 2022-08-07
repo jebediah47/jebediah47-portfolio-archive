@@ -39,8 +39,8 @@
               button to be redirected.
             </p>
             <div class="modal-action">
-              <a href="https://github.com/jebediah47" class="btn"
-                >Sure Redirect Me</a
+              <NuxtLink to="https://github.com/jebediah47" class="btn"
+                >Sure Redirect Me</NuxtLink
               >
             </div>
           </label>
