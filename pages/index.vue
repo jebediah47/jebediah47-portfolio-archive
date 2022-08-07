@@ -8,6 +8,7 @@
       />
       <Meta name="keywords" content="jebediah47, portfolio, website, GitHub" />
       <Meta name="author" content="Christian Llupo" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
   </div>
   <div>
