@@ -1,4 +1,4 @@
-name: Github Pages Gatsby CI
+name: Github Pages Nuxt CI
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -29,13 +29,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build Gatsby
-        run: npm run build
+      - name: Generate Nuxt
+        run: npm run generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: ./.output/public
 
   deploy:
     environment:
