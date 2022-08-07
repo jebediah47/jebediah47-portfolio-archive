@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar fixed bg-base-100">
+  <div class="navbar lg:fixed bg-base-100">
     <div class="navbar-start">
       <!-- Mobile view -->
       <div class="dropdown">
