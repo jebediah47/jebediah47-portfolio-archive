@@ -3,5 +3,7 @@ node_modules/
 .nuxt/
 dist/
 yarn.lock
+pnpm-lock.yaml
+package-lock.json
 .cache/
 src/gatsby-types.d.ts
