@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar lg:fixed bg-base-100">
+  <div class="navbar bg-base-100">
     <div class="navbar-start">
       <!-- Mobile view -->
       <div class="dropdown">
@@ -27,7 +27,7 @@
         >
           <!-- Mobile menu buttons -->
           <li><a @click="scrollToElement('hero__element')">About Me</a></li>
-          <li><a>Skills</a></li>
+          <li><a @click="scrollToElement('skills__element')">Skills</a></li>
           <li><a>Projects</a></li>
         </ul>
       </div>
@@ -42,7 +42,7 @@
       <ul class="menu menu-horizontal p-0">
         <!-- Desktop menu buttons -->
         <li><a @click="scrollToElement('hero__element')">About Me</a></li>
-        <li><a>Skills</a></li>
+        <li><a @click="scrollToElement('skills__element')">Skills</a></li>
         <li><a>Projects</a></li>
       </ul>
     </div>

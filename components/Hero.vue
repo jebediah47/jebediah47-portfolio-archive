@@ -8,7 +8,8 @@
       <Jebfetch />
       <div>
         <h1
-          class="text-7xl text-transparent bg-clip-text bg-gradient-to-r font-bold from-blue-500 to-green-400"
+          class="text-7xl text-transparent bg-clip-text font-bold"
+          id="hero--name"
         >
           Christian Llupo
         </h1>
@@ -49,3 +50,7 @@
     </div>
   </div>
 </template>
+
+<style>
+@import url("../assets/css/hero_animation.css");
+</style>

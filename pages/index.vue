@@ -14,5 +14,6 @@
   <div>
     <Navbar />
     <Hero />
+    <Skills />
   </div>
 </template>
