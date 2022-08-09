@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-base-100">
+  <div class="navbar sticky top-0 z-50 backdrop-blur-xl">
     <div class="navbar-start">
       <!-- Mobile view -->
       <div class="dropdown">

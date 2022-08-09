@@ -14,7 +14,7 @@
           My skill set
         </p>
         <p class="mt-4 max-w-2xl text-xl text-slate-400 lg:mx-auto">
-          My current skill-set, every technology I know is shown as badges.
+          My current skill-set, every technology I know is shown below.
         </p>
       </div>
 
@@ -23,19 +23,17 @@
           class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"
         ></dl>
       </div>
-      <div
-        class="flex lg:flex-nowrap md:flex-wrap sm:flex-nowrap justify-center"
-      >
+      <div class="flex flex-wrap lg:flex-nowrap justify-center items-center">
         <!-- Frontend skills -->
-        <div class="mx-8">
+        <div class="mx-8 md:mb-3 sm:mb-">
           <Frontend />
         </div>
         <!-- Backend skills -->
-        <div class="mx-8">
+        <div class="mx-8 md:my-3 sm:my-3">
           <Backend />
         </div>
         <!-- CI/CD skills -->
-        <div class="mx-8">
+        <div class="mx-8 md:mt-3 sm:mt-3">
           <ContinuousIntegration />
         </div>
       </div>
