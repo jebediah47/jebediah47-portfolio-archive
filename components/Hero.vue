@@ -20,7 +20,12 @@
           I specialize in the development of full-stack Node and Python
           applications.
         </p>
-        <button class="btn btn-primary">Projects</button>
+        <button
+          @click="scrollToElement('projects__element')"
+          class="btn btn-primary"
+        >
+          Projects
+        </button>
         <label for="github-redirect-modal" class="btn modal-button ml-3"
           >My GitHub</label
         >

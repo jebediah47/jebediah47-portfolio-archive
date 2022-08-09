@@ -23,9 +23,20 @@
           class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"
         ></dl>
       </div>
-      <div
-        class="flex flex-wrap lg:flex-nowrap justify-center items-center"
-      ></div>
+      <div class="flex flex-wrap lg:flex-nowrap justify-center items-center">
+        <!-- Woof web card -->
+        <div class="mx-8">
+          <WoofWeb />
+        </div>
+        <!-- Galactica bot card -->
+        <div class="mx-8">
+          <GalacticaBot />
+        </div>
+        <!-- Portfolio card -->
+        <div class="mx-8">
+          <Portfolio />
+        </div>
+      </div>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar sticky top-0 z-50 backdrop-blur-xl">
+  <div class="navbar sticky top-0 z-50 backdrop-blur-xl outline-slate-900">
     <div class="navbar-start">
       <!-- Mobile view -->
       <div class="dropdown">
@@ -28,7 +28,7 @@
           <!-- Mobile menu buttons -->
           <li><a @click="scrollToElement('hero__element')">About Me</a></li>
           <li><a @click="scrollToElement('skills__element')">Skills</a></li>
-          <li><a>Projects</a></li>
+          <li><a @click="scrollToElement('projects__element')">Projects</a></li>
         </ul>
       </div>
       <!-- Cross-platform logo -->
@@ -43,7 +43,7 @@
         <!-- Desktop menu buttons -->
         <li><a @click="scrollToElement('hero__element')">About Me</a></li>
         <li><a @click="scrollToElement('skills__element')">Skills</a></li>
-        <li><a>Projects</a></li>
+        <li><a @click="scrollToElement('projects__element')">Projects</a></li>
       </ul>
     </div>
     <!-- Button on the end of the navbar -->
