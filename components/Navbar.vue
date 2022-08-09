@@ -48,7 +48,11 @@
     </div>
     <!-- Button on the end of the navbar -->
     <div class="navbar-end">
-      <a class="btn btn-outline btn-success">Contact Me</a>
+      <NuxtLink
+        to="https://www.buymeacoffee.com/jebediah47"
+        class="btn btn-outline btn-success"
+        >Support Me</NuxtLink
+      >
     </div>
   </div>
 </template>

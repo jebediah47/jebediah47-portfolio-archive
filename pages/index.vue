@@ -16,6 +16,7 @@
     <Hero />
     <Skills />
     <Projects />
+    <Footer />
   </div>
 </template>
 
@@ -40,8 +41,8 @@ export default {
     buymeacoffee.setAttribute("data-y_margin", "18");
     buymeacoffee.async = true;
     buymeacoffee.onload = function () {
-      let evt = new Event("DOMContentLoaded");
-      window.dispatchEvent(evt);
+      let coffee = new Event("DOMContentLoaded");
+      window.dispatchEvent(coffee);
     };
     document.body.appendChild(buymeacoffee);
   },
