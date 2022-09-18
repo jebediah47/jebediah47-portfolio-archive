@@ -1,5 +1,5 @@
 <template>
-  <div class="py-8" id="projects__element">
+  <div class="py-5" id="projects__element">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <h2
@@ -25,15 +25,15 @@
       </div>
       <div class="flex flex-wrap lg:flex-nowrap justify-center items-center">
         <!-- Woof web card -->
-        <div class="mx-8">
+        <div class="m-5">
           <WoofWeb />
         </div>
         <!-- Galactica bot card -->
-        <div class="mx-8">
+        <div class="m-5">
           <GalacticaBot />
         </div>
         <!-- Portfolio card -->
-        <div class="mx-8">
+        <div class="m-5">
           <Portfolio />
         </div>
       </div>
