@@ -11,7 +11,9 @@
         class="text-error"
       ><code>🤖 AMD Ryzen 5 2600</code></pre>
       <pre data-prefix=">" class="text-indigo-300"><code>🪟 Aqua</code></pre>
-      <pre data-prefix=">" class="text-info"><code>🍎 Kernel 21.6.0</code></pre>
+      <pre data-prefix=">" class="text-info">
+        <code>🍎 Kernel 21.6.0</code>
+      </pre>
       <pre data-prefix=">" class="text-blue-500"><code>⌨️ /bin/zsh</code></pre>
       <pre
         data-prefix=">"
