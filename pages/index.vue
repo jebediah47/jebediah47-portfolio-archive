@@ -4,9 +4,12 @@
       <Title>Christian Llupo portfolio</Title>
       <Meta
         name="description"
-        content="The portfolio website of Christian Llupo aka jebediah47, hosted in GitHub pages."
+        content="👋 I'm Christian Llupo aka jeb47, a high-school student & full-stack developer, I specialize in the development of full-stack applications."
       />
-      <Meta name="keywords" content="jebediah47, portfolio, website, GitHub" />
+      <Meta
+        name="keywords"
+        content="jebediah47, portfolio, website, GitHub, Vercel"
+      />
       <Meta name="author" content="Christian Llupo" />
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>

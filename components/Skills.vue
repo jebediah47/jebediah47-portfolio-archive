@@ -25,15 +25,15 @@
       </div>
       <div class="flex flex-wrap lg:flex-nowrap justify-center items-center">
         <!-- Frontend skills -->
-        <div class="m-5">
+        <div class="m-3 xl:m-8">
           <Frontend />
         </div>
         <!-- Backend skills -->
-        <div class="m-5">
+        <div class="m-3 xl:m-8">
           <Backend />
         </div>
         <!-- CI/CD skills -->
-        <div class="m-5">
+        <div class="m-3 xl:m-8">
           <ContinuousIntegration />
         </div>
       </div>

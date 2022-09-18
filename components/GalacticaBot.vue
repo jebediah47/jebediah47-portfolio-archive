@@ -3,7 +3,7 @@
     <div class="card-body mx-3">
       <h2 class="card-title">galactica-bot</h2>
       <p class="text-base">
-        A open-source Discord bot made with Typescript using the Discord.js v13
+        An open-source Discord bot made with Typescript using the Discord.js v13
         library.
       </p>
       <div class="divider">Programming languages</div>

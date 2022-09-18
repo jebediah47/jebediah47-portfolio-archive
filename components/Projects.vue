@@ -25,15 +25,15 @@
       </div>
       <div class="flex flex-wrap lg:flex-nowrap justify-center items-center">
         <!-- Woof web card -->
-        <div class="m-5">
+        <div class="m-3 xl:m-8">
           <WoofWeb />
         </div>
         <!-- Galactica bot card -->
-        <div class="m-5">
+        <div class="m-3 xl:m-8">
           <GalacticaBot />
         </div>
         <!-- Portfolio card -->
-        <div class="m-5">
+        <div class="m-3 xl:m-8">
           <Portfolio />
         </div>
       </div>

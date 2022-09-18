@@ -3,7 +3,7 @@
     <div class="card-body mx-3">
       <h2 class="card-title">woof-web</h2>
       <p class="text-base">
-        The replacement of the old website of the Linux distribution WoofOS
+        The replacement of the old website of the WoofOS Linux™️ distribution.
       </p>
       <div class="divider">Programming languages</div>
       <div class="flex flex-row justify-center items-center">

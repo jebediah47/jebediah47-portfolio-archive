@@ -17,8 +17,7 @@
         <p class="py-6 text-lg">
           👋 I'm Christian Llupo aka jeb47, a high-school student & full-stack
           developer, <br />
-          I specialize in the development of full-stack Node and Python
-          applications.
+          I specialize in the development of full-stack applications.
         </p>
         <button
           @click="scrollToElement('projects__element')"
