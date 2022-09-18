@@ -7,10 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.3.1",
-    "cssnano": "^5.1.12",
-    "daisyui": "^2.22.0",
+    "@nuxtjs/tailwindcss": "5.3.3",
+    "cssnano": "5.1.13",
+    "daisyui": "2.28.0",
     "nuxt": "3.0.0-rc.6",
-    "postcss": "^8.4.16"
+    "postcss": "8.4.16"
   }
 }
